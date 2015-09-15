@@ -1,0 +1,7 @@
+{
+  "src": "src",
+  "dist": "dist",
+  "built": "built",
+  "release": "release",
+  "esriapi": "3.14"
+}
