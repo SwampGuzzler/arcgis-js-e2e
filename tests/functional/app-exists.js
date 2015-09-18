@@ -10,6 +10,7 @@ define(function (require) {
     'Legend text': function () {
       return this.remote
         .get(require.toUrl('http://lucas/arcgis-js-e2e/release/'))
+        // .get(require.toUrl('../../release/index.html'))
         .setFindTimeout(5000)
         // .findById('legend-view')
         .findByCssSelector('#esri_dijit_Legend_0_msg')
