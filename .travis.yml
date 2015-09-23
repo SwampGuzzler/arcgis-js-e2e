@@ -9,7 +9,8 @@ before_install:
 install:
   - npm install
   - bower install
-before_script:
-  - grunt build --force
+script: node_modules/.bin/intern-runner config=tests/intern
+# before_script:
+#   - grunt build --force
 notifications:
   slack: blueraster:KRUNi2hoHOZc4v7c2Dse9zWF
