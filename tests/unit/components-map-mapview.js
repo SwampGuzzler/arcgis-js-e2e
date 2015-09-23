@@ -38,7 +38,7 @@ define(function(require) {
       expect(mapView.map).to.not.be.undefined;
     }
   });
-  
+
   registerSuite({
     name: 'async map on-ready',
     beforeEach: function() {
@@ -80,6 +80,7 @@ define(function(require) {
         mapView.map.on('graphic-draw', function(graphic) {
           console.log('graphic')
           console.log(g)
+          
           // assert.equal(layers, 1,
           //   'There should be one graphic layer on the map');
           // assert.equal(layer.id, "jsonfl",
@@ -95,7 +96,7 @@ define(function(require) {
     //   var dfd = this.async(10000);
     //   mapView.map.on('layers-add', dfd.callback(function() {
     //     expect(mapView.map).to.not.be.undefined;
-        
+
     //   }));
 
     //     // var layer = mapView.map.getLayer(mapView.map.graphicsLayerIds[0])
