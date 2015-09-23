@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "0.10"
+services:
+  - mongodb
+before_install:
+  - npm install -g grunt-cli
+  - npm install -g bower
+install:
+  - npm install
+  - bower install
+before_script:
+  - npm run build
+notifications:
+  slack: blueraster:KRUNi2hoHOZc4v7c2Dse9zWF
