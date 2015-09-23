@@ -10,7 +10,7 @@ install:
   - npm install
   - bower install
 script: node_modules/.bin/intern-runner config=tests/intern
-# before_script:
-#   - grunt build --force
+before_script:
+  - npm start
 notifications:
   slack: blueraster:KRUNi2hoHOZc4v7c2Dse9zWF
