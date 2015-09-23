@@ -284,5 +284,5 @@ module.exports = function (grunt) {
   grunt.registerTask('release', ['default', 'clean:release', 'clean:built', 'copy:build', 'dojo', 'processhtml', 'cssurlcopy', 'copy:release', 'copy:releaseapp']);
   grunt.registerTask('build', ['default', 'clean:built', 'copy:build', 'dojo', 'processhtml']);
   grunt.registerTask('initialize', ['esri_slurp', 'default']);
-  grunt.registerTask('default', ['clean:dist', 'eslint', 'babel:dev', 'stylus:dev', 'copy:dev', 'inject:single']);
+  grunt.registerTask('default', ['clean:dist', 'babel:dev', 'stylus:dev', 'copy:dev', 'inject:single']);
 };

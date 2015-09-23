@@ -10,6 +10,6 @@ install:
   - npm install
   - bower install
 before_script:
-  - npm run build
+  - grunt build --force
 notifications:
   slack: blueraster:KRUNi2hoHOZc4v7c2Dse9zWF
