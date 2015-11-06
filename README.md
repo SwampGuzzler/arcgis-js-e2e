@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/username/repo.svg?branch=master)](https://travis-ci.org/username/repo)
+[![Code Climate](https://codeclimate.com/github/SwampGuzzler/arcgis-js-e2e/badges/gpa.svg)](https://codeclimate.com/github/SwampGuzzler/arcgis-js-e2e)
 [![Dependencies Status](https://david-dm.org/username/repo.svg)](https://david-dm.org/username/repo)
 ## e2e-tests
 My ArcGIS JS App
